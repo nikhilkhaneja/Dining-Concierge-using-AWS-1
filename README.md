@@ -62,6 +62,7 @@ The Yelp Fusion API uses private key authentication to authenticate all endpoint
 ##SAMPLE USE CASE
 
 *User*: Hello
+
 *Bot*: Hi there, how can I help?
 *User*: I need some restaurant suggestions.
 *Bot*: Great. I can help you with that. What city or city area are you looking to dine in?
