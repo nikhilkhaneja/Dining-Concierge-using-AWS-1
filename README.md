@@ -88,10 +88,10 @@ The Yelp Fusion API uses private key authentication to authenticate all endpoint
 
 **User**: 9879876655
 
-***
-
 **Bot**: You’re all set. Expect my suggestions shortly! Have a good day.
 
 **User**: Thank you!
 
 **Bot**: You’re welcome.
+
+***
