@@ -8,6 +8,12 @@
 
 ***
 
+## S3 BUCKET LINK TO THE CHATBOT
+
+#### [DINING CONCIERGE CHATBOT APPLICATION LINK](http://clouddiningconierge.s3-website-us-west-2.amazonaws.com/)
+
+***
+
 ## DESCRIPTION:
 
 #### Customer Service is a core service for a lot of businesses around the world and it is getting disrupted at the moment by Natural Language Processing-powered applications. In this assignmet we have implemented a serverless, microservice-driven web-based Dining Concierge chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot with through conversation.
