@@ -8,7 +8,7 @@
 
 ***
 
-## S3 BUCKET LINK TO THE CHATBOT
+## S3 BUCKET LINK TO THE CHATBOT:
 
 #### [DINING CONCIERGE CHATBOT APPLICATION LINK](http://clouddiningconierge.s3-website-us-west-2.amazonaws.com/)
 
