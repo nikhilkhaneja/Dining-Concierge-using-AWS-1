@@ -58,3 +58,24 @@ The Yelp Fusion API uses private key authentication to authenticate all endpoint
 ![alt text](https://github.com/rajat10cube/Dining-Concierge-using-AWS/blob/main/images/Assignment%201%20architecture%20diagram.png)
 
 ***
+
+##SAMPLE USE CASE
+
+*User*: Hello
+*Bot*: Hi there, how can I help?
+*User*: I need some restaurant suggestions.
+*Bot*: Great. I can help you with that. What city or city area are you looking to dine in?
+*User*: Manhattan
+*Bot*: Got it, Manhattan. What cuisine would you like to try?
+*User*: Chinese
+*Bot*: Ok, how many people are in your party?
+*User*: 4
+*Bot*: A few more to go. What date?
+*User*: Today
+*Bot*: What time?
+*User*: 1 pm
+*Bot*: Great. Lastly, I need your phone number so I can send you my findings.
+*User*: 9879876655
+*Bot*: You’re all set. Expect my suggestions shortly! Have a good day.
+*User*: Thank you!
+Bot: You’re welcome.
