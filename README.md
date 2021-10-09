@@ -53,3 +53,8 @@ The Yelp Fusion API allows you to get the best local content and user reviews fr
 The Yelp Fusion API uses private key authentication to authenticate all endpoints. Your private API Key will be automatically generated after you create your app. 
 
 ***
+
+## WORKFLOW DIAGRAM 
+![alt text](https://github.com/rajat10cube/Dining-Concierge-using-AWS/blob/main/images/Assignment%201%20architecture%20diagram.png)
+
+***
