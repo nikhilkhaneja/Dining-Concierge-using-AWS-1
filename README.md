@@ -7,6 +7,14 @@
 ###### S3 BUCKET LINK FOR THE CHATBOT : http://clouddiningconierge.s3-website-us-west-2.amazonaws.com/ 
 
 ***
+## INSTRUCTIONS :
+Visit the link and chat with the bot.
+The initial response sent by the bot will be in your inbox or spam mail.
+This mail will be a verification mail, move the mail to inbox if in spam and verify your e-mail address by clicking on the link sent in the mail.
+After this step, refresh the page and chat with the bot one more time.
+You will now get a suggestion of resturants on your mail.
+NOTE: This process must be done for new E-mail ID. If the e-mail has been used before, verification is not needed, suggestion will be mailed directly.
+The bot only accepts future dates like tomorrow. (today, yesterday or any past date will not give results.)
 
 ## DESCRIPTION:
 
