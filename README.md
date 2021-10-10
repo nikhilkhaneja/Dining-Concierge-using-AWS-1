@@ -1,24 +1,68 @@
-# Dining-Concierge-Chatbot
+## Dining-Concierge-Chatbot
 
-## An AWS based Dining Concierge Chatbot designed in the fulfillment of Assignment 1 of CS-GY 9223-I Cloud Computing and Big Data Systems
-***
+### An AWS based Dining Concierge Chatbot | Cloud Computing and Big Data Systems
 
-## Contributers: 
-#### NIKHIL KISHAN KHANEJA (nkk6190) | RAJAT RAGHUVANSHI (rrr****)
+#### Contributers: Rajat Raghuwanshi (rrr9293) | Nikhil Kishan Khaneja (nkk6190)
 
-***
-
-## S3 BUCKET LINK TO THE CHATBOT:
-
-#### [DINING CONCIERGE CHATBOT APPLICATION LINK](http://clouddiningconierge.s3-website-us-west-2.amazonaws.com/)
+###### S3 BUCKET LINK FOR THE CHATBOT : http://clouddiningconierge.s3-website-us-west-2.amazonaws.com/ 
 
 ***
 
 ## DESCRIPTION:
 
-#### Customer Service is a core service for a lot of businesses around the world and it is getting disrupted at the moment by Natural Language Processing-powered applications. In this assignmet we have implemented a serverless, microservice-driven web-based Dining Concierge chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot with through conversation.
+Customer Service is a core service for a lot of businesses around the world and it is getting disrupted at the moment by Natural Language Processing-powered applications. In this assignmet we have implemented a serverless, microservice-driven web-based Dining Concierge chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot with through conversation.
 
-#### So based on a conversation with the customer, the LEX chatbot will identify the customer’s preferred ‘cuisine’. The chatbot will search through ElasticSearch to get random suggestions of restaurant IDs with this cuisine. The chatbot will also query the DynamoDB table with these restaurant IDs to find more information about the restaurants you want to suggest to your customers like name and address of the restaurant. The chatbot will filter the restaurants based on the Cuisine.
+Chatbot validates the responses from user and based on this conversation, the LEX chatbot will identify the customer’s preferred ‘cuisine’. The chatbot will search through ElasticSearch to get random suggestions of restaurant IDs with this cuisine. The chatbot will also query the DynamoDB table with these restaurant IDs to find more information about the restaurants you want to suggest to your customers like name and address of the restaurant. The chatbot will filter the restaurants based on the Cuisine. After that the chatbot will send the suggestions to user via Email.
+
+***
+***
+
+## Sample Use Case
+**Bot**: Hi there, I'm your personal Concierge. How can I help?
+
+**User**: Hello
+
+**Bot**: Hi there, how can I help?
+
+**User**: suggest me some restaurants
+
+**Bot**: Great. I can help you with that. Firstly, I need your email address to send you my findings
+
+**User**: iamrajat10cube@gmail.com
+
+**Bot**: Thanks, Now what's the location you are looking for?
+
+**User**: Manhattan
+
+**Bot**: What cuisine would you like?
+
+**User**: Chinese
+
+**Bot**: What date would you like to go out?
+
+**User**: tomorrow
+
+**Bot**: At what time would you like to book the reservation?
+
+**User**: 4pm
+
+**Bot**: How many people?
+
+**User**: 4
+
+**Bot** Please enter your Phone Number
+
+**User**: 1234567890
+
+**Bot**: You’re all set. Expect my suggestions on your email shortly! Have a good day.
+
+**User**: 9879876655
+
+**Bot**: You’re all set. Expect my suggestions shortly! Have a good day.
+
+**User**: Thank you!
+
+**Bot**: You are welcome!
 
 ***
 
@@ -40,8 +84,8 @@ Amazon API Gateway is a fully managed service that makes it easy for developers 
 #### ▫️ AWS SIMPLE QUEUE SERVICE (SQS):
 Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications. Using SQS, we sent, stored, and received messages between lambda functions without losing messages or requiring other services to be available. We used Standard message queue for best throughput, best-effort ordering, and at-least-once delivery
 
-#### ▫️ AWS SIMPLE NOTIFICATION SERVICE (SNS): 
-Amazon Simple Notification Service (Amazon SNS) is a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication. We have used AWS SNS to push the recommendations to the user. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email. We have used email and SMS notifications.
+#### ▫️ AWS SIMPLE NOTIFICATION SERVICE (SES): 
+Amazon Simple Email Service (SES) is a cost-effective, flexible, and scalable email service that enables developers to send mail from within any application. 
 
 #### ▫️ AWS Elasticsearch : 
 AWS Elasticsearch is a distributed search and analytics engine built on Apache Lucene. Since its release in 2010, Elasticsearch has quickly become the most popular search engine and is commonly used for log analytics, full-text search, security intelligence, business analytics, and operational intelligence use cases.
@@ -60,44 +104,3 @@ The Yelp Fusion API uses private key authentication to authenticate all endpoint
 ## WORKFLOW DIAGRAM 
 ![alt text](https://github.com/rajat10cube/Dining-Concierge-using-AWS/blob/main/images/Assignment%201%20architecture%20diagram.png)
 
-***
-
-## SAMPLE USE CASE
-
-**User**: Hello
-
-**Bot**: Hi there, how can I help?
-
-**User**: I need some restaurant suggestions.
-
-**Bot**: Great. I can help you with that. What city or city area are you looking to dine in?
-
-**User**: Manhattan
-
-**Bot**: Got it, Manhattan. What cuisine would you like to try?
-
-**User**: Chinese
-
-**Bot**: Ok, how many people are in your party?
-
-**User*: 4
-
-**Bot**: A few more to go. What date?
-
-**User**: Today
-
-**Bot** What time?
-
-**User**: 1 pm
-
-**Bot**: Great. Lastly, I need your phone number so I can send you my findings.
-
-**User**: 9879876655
-
-**Bot**: You’re all set. Expect my suggestions shortly! Have a good day.
-
-**User**: Thank you!
-
-**Bot**: You’re welcome.
-
-***
